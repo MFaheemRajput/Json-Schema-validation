@@ -1,0 +1,28 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Person",
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string",
+        "minLength": 3,
+        "maxLength": 50
+      },
+      "age": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 120
+      },
+      "email": {
+        "type": "string",
+        "format": "email",
+        "pattern": "^[a-zA-Z0-9._%+-]+@example\\.com$"
+      },
+      "isEmployed": {
+        "type": "boolean"
+      }
+    },
+    "required": ["name", "age"],
+    "additionalProperties": false
+  }
+  

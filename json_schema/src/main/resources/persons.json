@@ -1,0 +1,21 @@
+[
+    {
+      "name": "Alice",
+      "age": 25,
+      "email": "alice@example.com",
+      "isEmployed": true
+    },
+    {
+        "name": "Alex",
+        "age": 25,
+        "email": "Alexexample.com",
+        "isEmployed": true
+      },
+    {
+      "name": "Bob",
+      "age": -1,
+      "email": "bob@example.com",
+      "isEmployed": false
+    }
+  ]
+  
